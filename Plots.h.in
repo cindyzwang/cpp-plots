@@ -1,0 +1,2 @@
+#define Plots_VERSION_MAJOR @Plots_VERSION_MAJOR@
+#define Plots_VERSION_MINOR @Plots_VERSION_MINOR@
