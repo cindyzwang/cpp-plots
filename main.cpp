@@ -2,11 +2,9 @@
 #include <cmath>
 #include <matplot/matplot.h>
 
-#include "Plots.h"
+using namespace matplot;
 
 int main() {
-  printf("%d.%d\n", Plots_VERSION_MAJOR, Plots_VERSION_MINOR);
-  using namespace matplot;
   std::vector<double> x = linspace(0, 2 * pi);
   std::vector<double> y = transform(x, [](auto x) { return sin(x); });
 
